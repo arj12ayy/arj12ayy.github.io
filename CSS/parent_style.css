@@ -912,7 +912,7 @@ table {
 	
 	/*HEADER*/
 	.site-branding {
-	  padding: 40px 0;
+	  padding: 20px 0;
 	}
 @media screen and (max-width: 550px) {
 	.site-branding {
@@ -921,7 +921,7 @@ table {
 }	
 	
 	.site-title {
-	  font-size: 40px;
+	  font-size: 30px;
 	  font-weight: 300;
 	  letter-spacing: 1px;
 	  margin-top: 0;
