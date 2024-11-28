@@ -67,7 +67,7 @@ tribe-events-single-section.tribe-events-event-meta primary.tribe-clearfix>* {
 #sliderbox
 {
 	position: relative;
-	width: 3000px;
+	width: 3600px;
 	animation: instruments 20s infinite;
 }
 
@@ -118,6 +118,10 @@ tribe-events-single-section.tribe-events-event-meta primary.tribe-clearfix>* {
 	95%
 	{
 		left: -2400px;
+	}
+	100%
+	{
+		left: -3000px;
 	}
 }
 
