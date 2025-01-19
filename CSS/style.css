@@ -54,7 +54,7 @@ tribe-events-single-section.tribe-events-event-meta primary.tribe-clearfix>* {
 
 #sliderbox img
 {
-	float: left;
+	float: center;
 	object-fit: cover;
 }
 
