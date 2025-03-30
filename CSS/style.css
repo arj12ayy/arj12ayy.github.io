@@ -3,7 +3,7 @@
 	color: #FFF;
 	background-image: url('https://muralsyourway.vtexassets.com/arquivos/ids/233950-825-auto');
 	background-repeat:no-repeat;
-	background-size: 300vw 300vh;
+	background-size: cover;
 	#opacity: 0.7
 }
 body, .masthead  {
