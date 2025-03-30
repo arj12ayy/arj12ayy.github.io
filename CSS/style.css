@@ -2,11 +2,15 @@
 	background-color: #17B169;
 	color: #fff;
 	background-image: url('https://muralsyourway.vtexassets.com/arquivos/ids/233950-825-auto') no-repeat;
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 body, .masthead  {
 	color: #fff;
 	background-color: #17B169;
 	background-image: url('https://muralsyourway.vtexassets.com/arquivos/ids/233950-825-auto') no-repeat;
+	background-repeat:no-repeat;
+	background-size:cover;
 
 }
 .site-branding > h1.site-title > a {
