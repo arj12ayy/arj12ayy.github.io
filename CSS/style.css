@@ -11,7 +11,7 @@ body, .masthead  {
 	background-color: #17B169;
 	#background-image: url('https://muralsyourway.vtexassets.com/arquivos/ids/233950-825-auto');
 	#background-repeat:no-repeat;
-	#background-size: cover;
+	background-size: cover;
 
 }
 .site-branding > h1.site-title > a {
