@@ -537,9 +537,12 @@ table {
 		    font-family: fontawesome;
 		    font-size: 9px;
 		    font-weight: normal;
-		    position: relative;
-		    right: -8px;
-		    top: -2px;
+		    /*position: relative*/;
+		    /*right: -8px;*/
+		    /*top: -2px;*/
+			position: absolute;
+			right: 0;
+			top: 50%;
 			flex-wrap: nowrap;
 		}
 		
