@@ -540,6 +540,7 @@ table {
 		    position: relative;
 		    right: -8px;
 		    top: -2px;
+			flex-wrap: nowrap;
 		}
 		
 		#site-navigation ul.nav-menu ul li,
