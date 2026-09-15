@@ -528,6 +528,12 @@ table {
 			border-color: rgba( 255, 255, 255, 0.2 );
 		}
 
+		.main-navigation ul.nav-menu > li.menu-item-has-children > a {
+    		position: relative;
+    		padding-right: 15px;
+    		display: inline-block;
+		}
+
 		.main-navigation div.menu > ul > li.page_item_has_children > a:after,
 		.main-navigation ul.nav-menu > li.page_item_has_children > a:after,
 		.main-navigation div.menu > ul > li.menu-item-has-children > a:after,
