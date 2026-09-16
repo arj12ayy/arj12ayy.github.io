@@ -527,32 +527,33 @@ table {
 			border-top: solid 1px #555;
 			border-color: rgba( 255, 255, 255, 0.2 );
 		}
-		.main-navigation div.menu > ul > li.page_item_has_children > a,
-		.main-navigation ul.nav-menu > li.page_item_has_children > a,
-		.main-navigation div.menu > ul > li.menu-item-has-children > a,
-		.main-navigation ul.nav-menu > li.menu-item-has-children > a {
-    		position: relative;
-    		padding-right: 15px;
-    		display: inline-block;
+
+		#site-navigation .main-navigation div.menu > ul > li.page_item_has_children > a,
+		#site-navigation .main-navigation ul.nav-menu > li.page_item_has_children > a,
+		#site-navigation .main-navigation div.menu > ul > li.menu-item-has-children > a,
+		#site-navigation .main-navigation ul.nav-menu > li.menu-item-has-children > a {
+		    position: relative !important;
+		    padding-right: 25px !important; /* Increased space to clear the default 11px theme padding */
+		    display: inline-block !important; 
 		}
 
-		.main-navigation div.menu > ul > li.page_item_has_children > a:after,
-		.main-navigation ul.nav-menu > li.page_item_has_children > a:after,
-		.main-navigation div.menu > ul > li.menu-item-has-children > a:after,
-		.main-navigation ul.nav-menu > li.menu-item-has-children > a:after {
-			content: "\f078";
-			display: inline-block;
+
+		#site-navigation .main-navigation div.menu > ul > li.page_item_has_children > a:after,
+		#site-navigation .main-navigation ul.nav-menu > li.page_item_has_children > a:after,
+		#site-navigation .main-navigation div.menu > ul > li.menu-item-has-children > a:after,
+		#site-navigation .main-navigation ul.nav-menu > li.menu-item-has-children > a:after {
+		    content: "\f078";
 		    font-family: fontawesome;
 		    font-size: 9px;
 		    font-weight: normal;
-		    /*position: relative*/;
-		    /*right: -8px;*/
-		    /*top: -2px;*/
-			position: absolute;
-			right: 0;
-			top: 50%;
-			flex-wrap: nowrap;
+		    
+		    
+		    position: absolute !important;
+		    right: 8px;                
+		    top: 50% !important;
+		    transform: translateY(-50%);
 		}
+
 		
 		#site-navigation ul.nav-menu ul li,
 		#site-navigation .menu ul ul li {
